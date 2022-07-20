@@ -1,0 +1,148 @@
+public static void main(String args[]) #instead of args any other word can also be used.
+
+**Print statemnt: System.out.print / System.out.println
+**  && -> and 
+== -> equals to
+=  -> assignment
+
+Types of datatypes:
+1. Integer
+2. Float
+3. Double
+
+There are two ways in which user input can be taken in java. BufferedReader class and Scanner class
+
+// BufferedReader Class //
+
+In order to user BufferedReaderclass we need to import io package in our program.
+import java.io.*
+The function "readLine()" is used to read one line of input.
+Mostly uised in exceptional handling.
+
+// Scanner class // 
+
+Scannerclass is found in "util" package so import java.util.*
+Some functions are 
+1. next() : string
+2. nextInt() : Integer
+3. nextFloat() : Float
+
+
+
+// CONTROL STATEMENT //
+
+THE statemnts used to control the flow of data is called control statemnt.
+These are of two types:
+1 . Selection statemnt:
+    a . if
+    b . switch.... case
+
+
+
+/// if statemnt ///
+
+    #for single statement
+
+    if (condition)
+        statemnt;
+
+    #for multiple statement\
+
+    if(condition)
+    {
+        statement;
+        statement;
+    }
+
+    # for two conditions
+
+    if(condition)
+        statement;
+
+    else
+        statement;
+
+
+    # for more than two conditions
+
+    if(condition)
+        {
+            statement;
+            statement;
+            statement;
+        }
+
+    else if(condition)
+        {
+            statement;
+            statement;
+            statement;
+        }
+
+    else
+        statemnt;
+
+
+
+/// SWITCH CASE STATEMENT ///
+
+a = sc.next.Int()
+
+break statementis used to break the loop.
+
+switch(a)
+{
+    case 1:
+        statement;
+        break    
+    case 2:
+        statement;
+
+    default:
+        statement;
+}
+
+
+
+2 . Looping statemnt:
+    loops are used to execute a single statementor a block of statement n times till the condition is true.
+    a. while
+    b. do- while
+    c. for
+
+    
+    Three parts of a loop are:
+    1. intialization\2. condition\3. increment\decrement
+
+   // WHILE STATEMENT //
+    Same as Python
+    It is entrry controlled loop
+    i = 0   -> intialization
+    while (i > 5)  -> condition
+    System.out.print("n")
+    i = i + 1
+
+
+
+    // DO-WHILE LOOP//
+    i = 1
+    do
+    {
+        System.out.print(i)
+        i += 0
+        while (i>5);
+
+        # only loop wihich ends with semi colon(;)
+    }
+
+    
+CONTINUE STATEMENT:\
+It is used to continue the loop or skip that particular action if certain condition is satisfied.
+If continue appears in code, the following parts of the block are not executed and the loop restarts while in break the execution stops and continues outside the block.
+
+{
+    block
+}
+
+
+
