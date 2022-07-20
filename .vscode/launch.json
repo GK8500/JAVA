@@ -1,0 +1,140 @@
+1{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Basic",
+            "request": "launch",
+            "mainClass": "Basic",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch addbuffer",
+            "request": "launch",
+            "mainClass": "addbuffer",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch addscanner",
+            "request": "launch",
+            "mainClass": "addscanner",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch demos",
+            "request": "launch",
+            "mainClass": "demos",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch max",
+            "request": "launch",
+            "mainClass": "max",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch max3",
+            "request": "launch",
+            "mainClass": "max3",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch number",
+            "request": "launch",
+            "mainClass": "number",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch oddeven",
+            "request": "launch",
+            "mainClass": "oddeven",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch posneg",
+            "request": "launch",
+            "mainClass": "posneg",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch printnn",
+            "request": "launch",
+            "mainClass": "printnn",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch productogdigits",
+            "request": "launch",
+            "mainClass": "productogdigits",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch prosum",
+            "request": "launch",
+            "mainClass": "prosum",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch revrse",
+            "request": "launch",
+            "mainClass": "revrse",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch sod",
+            "request": "launch",
+            "mainClass": "sod",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumnn",
+            "request": "launch",
+            "mainClass": "sumnn",
+            "projectName": "JAVA_94d6652f"
+        },
+        {
+            "type": "java",
+            "name": "Launch universities",
+            "request": "launch",
+            "mainClass": "universities",
+            "projectName": "JAVA_94d6652f"
+        }
+    ]
+}
