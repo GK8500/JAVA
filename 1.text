@@ -145,4 +145,11 @@ If continue appears in code, the following parts of the block are not executed a
 }
 
 
+OBJECT ORIENTED PROGRAMMING
+
+CLASS : It is an entity which contain smaller entities.
+OBJECT : The smaller entities in a class 
+
+CLASS VARIABLES:  The variables defined at class level.These are defined where we want user input.These variables can be used in any function later in the prgram.
+
 

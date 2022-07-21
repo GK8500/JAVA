@@ -10,7 +10,7 @@ public class STAR1
         {
             for (j = n ; j >= 1 ; i--)
             {
-                System.out.print("*" );
+                System.out.print(i);
             }
             System.out.println();
         }

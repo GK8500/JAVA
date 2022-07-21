@@ -11,7 +11,7 @@ public class STAROPP {
         {
             for(i = 1 ; i <= n ; i ++ )
             {
-                System.out.print("*");
+                System.out.print(i);
             }
             System.out.println();
         }
