@@ -1,2 +1,2 @@
-product = product + (n % 10)^count;
-   n = n / 10;
+
+        Scanner sc  = new Scanner(System.in);
