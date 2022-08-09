@@ -29,6 +29,15 @@ Some functions are
 
 
 
+// LOGICAL OPERATORS //
+
+&& -> AND 
+|| -> OR
+!  -> NOT
+
+
+
+
 // CONTROL STATEMENT //
 
 THE statemnts used to control the flow of data is called control statemnt.

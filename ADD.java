@@ -4,12 +4,12 @@ class ADD
     int a , b ;// class variable
     void getdata()
     {
-        Scanner sc =  new Scanner(System.in);
-        
-        System.out.println("Give thw first number: ");
-        a = sc.nextInt();
-        System.out.println("Give thw second number: ");
-        b = sc.nextInt();       
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Give thw first number: ");
+            a = sc.nextInt();
+            System.out.println("Give thw second number: ");
+            b = sc.nextInt();
+        }       
     }
     void putdata()
     {
