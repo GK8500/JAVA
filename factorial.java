@@ -11,7 +11,7 @@ public class factorial {
         {product = product * i;
          i +=1 ;}
     System.out.print(product);
-    
+    no.close();
 
 }
 }

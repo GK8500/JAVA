@@ -3,31 +3,31 @@ import java.util.Scanner;
 public class Switchcal{
 
     public static void main(String args[]) {
-        Scanner cal = new Scanner(System.in)
-        {
+        Scanner cal = new Scanner(System.in);
+        
             
         int i = cal.nextInt();
         int j = cal.nextInt();
         
+        int calculate= cal.nextInt();
         
-        
-        switch (calculator) {
-            case add:
-                ans = i + j ;
+        switch (calculate) {
+            case 1:
+                int ans = i + j ;
                 System.out.println(ans);
                 break;
         
-            case Substract:
+            case 2:
                 ans = i - j ;
                 System.out.println(ans);
                 break;
         
-            case Multiply:
+            case 3:
                 ans = i * j ;
                 System.out.println(ans);
                 break;
         
-            case Divide:
+            case 4:
                 ans = i / j ;
                 System.out.println(ans);
                 break;
@@ -35,6 +35,6 @@ public class Switchcal{
             default:
                 break;
         }
+        cal.close();
     }
     }
-}

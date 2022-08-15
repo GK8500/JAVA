@@ -1,5 +1,7 @@
 public static void main(String args[]) #instead of args any other word can also be used.
 
+use sc.close() at the end of the program
+
 **Print statemnt: System.out.print / System.out.println
 **  && -> and 
 == -> equals to
