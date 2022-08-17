@@ -15,5 +15,7 @@ public class max {
             System.out.print(a);
         else
             System.out.print(b);
+
+        sc.close();
     }
 }
