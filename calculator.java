@@ -54,6 +54,6 @@ public class calculator {
     else
     System.out.println("PLEASE ENTER A VALID OPERATION");
 
-
+        sc.close();
     }
 }

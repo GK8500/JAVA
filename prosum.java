@@ -22,6 +22,7 @@ public class prosum {
         }
         System.out.println("The sum of even numbers is "+ sum);
         System.out.println("The product of odd numbers is "+product);
+        sc.close();
     }
 
 }

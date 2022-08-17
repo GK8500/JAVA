@@ -19,5 +19,6 @@ public class max3 {
             System.out.print(b);
         else
             System.out.print(c);
+            sc.close();
     }
 }

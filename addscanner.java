@@ -11,5 +11,6 @@ public class addscanner {
     b = sc.nextInt();
     c = a + b ;
     System.out.println("Addition = " + c);
+    sc.close();
     }
 }

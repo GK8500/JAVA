@@ -12,5 +12,6 @@ public class revrse {
         {reverse = reverse * 10 + n % 10;
         n = n/10;}
         System.out.print(reverse);
+        sc.close();
     }
 }

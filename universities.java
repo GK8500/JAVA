@@ -33,6 +33,7 @@ public class universities {
        {
         System.out.println("1. University of Cambridge \n 2.Imperial College London \n 3. ETH Zurich \n 4. EPFL \n 5. Université PSL \n 6.The University of Warwick \n ");
     }
+    sc.close();
     }
 
 }

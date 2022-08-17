@@ -11,6 +11,7 @@ public class productogdigits {
     {product = product * (n% 10);
     n = n /10;}
     System.out.println(product);
+    sc.close();
 
 
 }

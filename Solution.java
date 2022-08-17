@@ -3,19 +3,16 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-        try (Scanner scan = new Scanner(System.in)) {
-            int i = scan.nextInt();
-            Double d = scan.nextDouble();
-            scan.nextLine();
-            String s = scan.next();
-            
-            
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++){
+                String s1=sc.next();
+                int x=sc.nextInt();
+                //Complete this line
+                System.out.println(s1 +  "              "+ x);
+            }
+            System.out.println("================================");
 
-            // Write your code here.
-
-            System.out.println("String: " + s);
-            System.out.println("Double: " + d);
-            System.out.println("Int: " + i);
-        }
+            sc.close();
     }
 }

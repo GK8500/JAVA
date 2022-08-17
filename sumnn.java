@@ -8,5 +8,6 @@ public class sumnn {
         i = sc.nextInt();
         n = (i*(i+1))/2;
         System.out.print(n);
+        sc.close();
     }
 }

@@ -13,5 +13,6 @@ public class printnn
             System.out.println(i);
             i = i + 1;
         }
+        sc.close();
     }
 }

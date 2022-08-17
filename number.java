@@ -1,4 +1,4 @@
-import java.io.*;
+
 public class number {
     public static void main(String args[])
     {

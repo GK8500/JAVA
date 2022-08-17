@@ -17,6 +17,7 @@ public class oddeven {
 
         else
         System.out.print("Odd");
+        s.close();
     }
     
 }

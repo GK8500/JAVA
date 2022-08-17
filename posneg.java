@@ -7,7 +7,7 @@ public class posneg {
     public static void main(String args[])
     {
          int a ;
-         char c ;
+        //  char c ;
          Scanner sc = new Scanner(System.in);
          System.out.print("Enter the number: ");
          a = sc.nextInt();
@@ -20,6 +20,7 @@ public class posneg {
 
          else
          System.out.println("Negative");
+         sc.close();
     }
     
 }

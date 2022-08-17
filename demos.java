@@ -15,7 +15,7 @@ public static void main(String args[])
     
     peri = 2*(len + br) ; 
     System.out.print("Perimeter = " + peri);
-
+    ar.close();
 
 }
 }

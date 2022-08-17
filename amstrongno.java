@@ -3,7 +3,7 @@ public class amstrongno {
 
     public static void main(String args[]){
     Scanner no = new Scanner(System.in);
-    int n ,  sum = 0 , product = 0 , z ,  count = 0;
+    int n ,  product = 0 , z ,  count = 0;
     System.out.print("Enter a number: ");
     n = no.nextInt();
     z = n;
@@ -18,6 +18,7 @@ public class amstrongno {
     {product = (int) (product + Math.pow((z % 10), count));
     z = z / 10;}
     System.out.print(product);
+    no.close();
     }
 
 }  

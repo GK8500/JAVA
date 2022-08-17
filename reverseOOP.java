@@ -28,5 +28,6 @@ class reverseOOP
         m = sc.nextInt();
         aa.getdata(m);
         aa.putdata();
+        sc.close();
     }
 }
