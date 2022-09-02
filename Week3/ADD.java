@@ -1,5 +1,7 @@
+// package Week3;
+
 import java.util.Scanner;
-class ADD
+public class ADD
 {
     int a , b ;// class variable
     void getdata()

@@ -1,4 +1,4 @@
-package arrays;
+// package arrays;
 
 public class arays {
     public static void main(String args[]) {
