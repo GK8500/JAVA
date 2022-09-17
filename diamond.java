@@ -1,8 +1,6 @@
-import java.util.function.DoubleToIntFunction;
-
 public class diamond {
     public static void main(String[] args) {
-        int n = 5;
+        // int n = 5;
 
         for (int i = 0; i <=5; i++) {
             for (int space = i; space <= 5; space++) {
