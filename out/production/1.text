@@ -1,14 +1,30 @@
 public static void main(String args[]) #instead of args any other word can also be used.
 
+use sc.close() at the end of the program
+
 **Print statemnt: System.out.print / System.out.println
 **  && -> and 
 == -> equals to
 =  -> assignment
 
 Types of datatypes:
-1. Integer
-2. Float
-3. Double
+PRIMITIVE
+    1. Integer
+    2. Float - 4 byte
+    3. Double - 8 byte
+    4. Byte  - 1 byte
+    5. boolean - 1 byte
+    6. long - 8 byte
+    7. char - 2 byte
+    8. Short
+
+NON-PRIMITIVE
+    1. string
+    2. arrays
+    3. class
+    4. OBJECT
+    5. interface
+
 
 There are two ways in which user input can be taken in java. BufferedReader class and Scanner class
 
@@ -26,6 +42,18 @@ Some functions are
 1. next() : string
 2. nextInt() : Integer
 3. nextFloat() : Float
+
+Scanner sc = new Scanner(System.in)
+String name = sc.nextLine();
+// sc.nextLine() -->  prints the whole line or sentence
+// sc.next() --> prints only single word even if whole sentence is given
+
+// LOGICAL OPERATORS //
+
+&& -> AND 
+|| -> OR
+!  -> NOT
+
 
 
 
@@ -130,9 +158,29 @@ switch(a)
     {
         System.out.print(i)
         i += 0
-        while (i>5);
-
+        
+        # loop will be executed at least one time
         # only loop wihich ends with semi colon(;)
-    }
+    }   while (i>5);
 
     
+CONTINUE STATEMENT:\
+It is used to continue the loop or skip that particular action if certain condition is satisfied.
+If continue appears in code, the following parts of the block are not executed and the loop restarts while in break the execution stops and continues outside the block.
+
+{
+    block
+}
+
+string.charAt(n) --> Printts charecter at nth position
+
+
+
+OBJECT ORIENTED PROGRAMMING
+
+CLASS : It is an entity which contain smaller entities.
+OBJECT : The smaller entities in a class 
+
+CLASS VARIABLES:  The variables defined at class level.These are defined where we want user input.These variables can be used in any function later in the prgram.
+
+

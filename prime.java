@@ -9,7 +9,7 @@ public class prime {
     while(i <= n)
         {if (n % i == 0)
         count += 1;
-     i += 1;}
+        i += 1;}
 
     if (count > 2)
     System.out.print("It is not a prime number");

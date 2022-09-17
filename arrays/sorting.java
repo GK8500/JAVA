@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class sorting {
     public static void main(String[] args) {
-        int n, temp;
+        int  temp;
         Scanner s = new Scanner(System.in);
         // System.out.print("Enter no. of elements you want in array:");
         // n = s.nextInt();
@@ -24,6 +24,8 @@ public class sorting {
         for (int i = 0; i <= 10 - 1; i++) {
             System.out.print(a[i] + ",");
         }
-        // System.out.print(a[10 - 1]);
+
+
+        s.close();
     }
 }

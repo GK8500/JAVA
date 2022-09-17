@@ -16,7 +16,7 @@ public class ascending {
             int a = 0;
             if(asc[i] > a){
                 a = asc[i];
-                System.out.println(a);
+                System.out.print(a +" ");
             }
         }sc.close();
     }

@@ -7,7 +7,7 @@ public class bubble_Sort {
         // bubble sort
 
         for(int i = 0 ; i < arr.length-1 ; i++) {   // moving to the next element 
-            for (int j = 0 ; j < arr.length - i -1 ; j ++)  // to replace the index 
+            for (int j = 0 ; j < arr.length -1 -i; j ++)  // to replace the index 
             if(arr[j] > arr[j+1]) {
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
