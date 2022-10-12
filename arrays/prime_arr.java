@@ -4,7 +4,7 @@ public class prime_arr {
         Scanner num = new Scanner(System.in);
         int ln = 10;
         int [] arr = new int[ln+1];
-        
+        // input
         for (int i = 0; i < ln; i++){
             System.out.print("Enter the elements: " + (i+1) + " : ");
             arr[i] = num.nextInt();

@@ -7,6 +7,7 @@ public class FloydeTri {
         
         for (int i = 1; i <= n;i++) {
             int j = 1;
+            // System.out.println(j);                              for debugging 
             while(j <= i){
                 System.out.print(x+ " ");
                 j++;

@@ -5,7 +5,7 @@
 
 public class maxmin {
     public static void main(String[] args) {
-        int  temp;
+        // int  temp;
         // Scanner s = new Scanner(System.in);
         // System.out.print("Enter no. of elements you want in array:");
         // n = s.nextInt();
@@ -19,11 +19,11 @@ public class maxmin {
         // }
 
 
-        // output
+        // output   [bubble sort]
         for (int i = 0; i < 7; i++) {
             for (int j = i + 1; j < 7; j++) {
                 if (a[i] > a[j]) {
-                    temp = a[i];
+                    int temp = a[i];
                     a[i] = a[j];
                     a[j] = temp;
                 }
