@@ -1,6 +1,6 @@
 // Check if the array is sorted or not
 
-package recursion;
+// package recursion;
 
 public class sort_check {
     public static boolean check(int[]arr, int i){

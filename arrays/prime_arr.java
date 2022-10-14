@@ -9,10 +9,10 @@ public class prime_arr {
             System.out.print("Enter the elements: " + (i+1) + " : ");
             arr[i] = num.nextInt();
         }
-        // System.out.println("The elements in the array are: ");
-        // for(int j = 0; j<ln; j++){
-        //     System.out.print(arr[j]+",");
-        // }
+        
+        // if the number is divisible by any number between 2 and itself its not prime.
+        // using that logic:
+        
 
         System.out.println("\nThe prime numbers in the array are: ");
         for (int i = 0; i < ln; i++){

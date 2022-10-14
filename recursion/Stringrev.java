@@ -1,4 +1,4 @@
-package recursion;
+// package recursion;
 
 public class Stringrev {
 public static void rev(String str , int index ) {

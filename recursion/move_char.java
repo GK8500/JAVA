@@ -1,6 +1,6 @@
 // move a given charecter to the end of the string
 
-package recursion;
+// package recursion;
 
 public class move_char {
     public static void move(String str, int indx , String newString, int count) {

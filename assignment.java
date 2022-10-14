@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class assignment {
-    public static void main(String  args[]) {
+    public static void main(String[] args) {
       Scanner sc  = new Scanner(System.in);
         int strings = 0;
         int spaces = 0;
@@ -26,9 +26,11 @@ public class assignment {
         }
         System.out.println("The sentence has " + strings + " letters, " + numbers + " numbers and " + spaces + " spaces.");
         sc.close();
+      }
+        
     
 }
-}
+
 
     
     
