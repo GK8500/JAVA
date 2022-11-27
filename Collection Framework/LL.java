@@ -36,6 +36,7 @@ public class LL {
         while(currNode.next != null){
             currNode = currNode.next;
         }
+        currNode.next = newNode;
     }
 
     public static void printList() {
@@ -52,8 +53,10 @@ public class LL {
         LL list1 = new LL();
         list1.addFirst("nullashwar");
         list1.addFirst("uruguay");
+        
+        list1.addLast("Aregntina");
+        
         list1.printList();
-
     }
     
 }
