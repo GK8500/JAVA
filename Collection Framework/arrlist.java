@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.lang.model.util.Elements;
-
 public class arrlist {
     public static void main(String[] args) {
         // Interger | String | Boolean | 
