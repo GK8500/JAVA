@@ -19,14 +19,13 @@ public class insertion {
     
  for( i=0;i<size;i++){
         System.out.print(arr[i]+" ");
-        
     }
     
-    System.out.println(" ");
+    System.out.println();
     System.out.println("enter the element you want to insert: ");
-    int s=sc.nextInt();
+    int s = sc.nextInt();
     System.out.println("enter the position where you want to insert: ");
-    int pos=sc.nextInt();
+    int pos = sc.nextInt();
 
     System.out.println("------------------------------------------------------");
 for(i=size;i>=pos;i--){
@@ -38,7 +37,6 @@ for(i=size;i>=pos;i--){
  for(i=0;i<size+1;i++){
 
     System.out.print(arr[i]+" ");
-
 }
 sc.close();
 }
