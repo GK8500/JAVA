@@ -1,5 +1,3 @@
-
-
 public class bubble_Sort {
     public static void main(String[] args) {
         int arr[] = {3,1,3,3,2};
