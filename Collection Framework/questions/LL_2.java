@@ -20,7 +20,11 @@ public class LL_2 {
         else{
             System.out.println("Enter a number: ");
             int x = sc.nextInt();
+            i.add(x);
             
-        }
-    }}
+        } 
+    }
+
+    
+}
 }
