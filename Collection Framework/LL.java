@@ -5,18 +5,22 @@ public class LL {
     static Node head;
 
     class Node{
-        String data;
+        String value;
         Node next;
 
-        Node(String data){
-            this.data = data;
+        Node(String value){
+            this.value = value;
             this.next = null;
+        }
+        Node(String value,Node next){
+            this.value = value;
+            this.next = next;
         }
     }
 
     // add- First
-    public void addFirst(String data){
-        Node newNode = new Node(data);
+    public void addFirst(String value){
+        Node newNode = new Node(value);
         if(head == null){
             head = newNode;
             return;
@@ -29,8 +33,8 @@ public class LL {
 
     // add- Last
 
-    public void addLast(String data){
-        Node newNode = new Node(data);
+    public void addLast(String value){
+        Node newNode = new Node(value);
         if(head == null){
             head = newNode;
             return;
@@ -40,6 +44,17 @@ public class LL {
             currNode = currNode.next;
         }
         currNode.next = newNode;
+    }
+
+    // add
+    public void add(String value, int index){
+        Node temp = head;
+        for (int i = 1; i < index; i++) {
+            temp = temp.next;
+        }
+        Node n1 = new Node(value, temp.next);
+        temp.next = n1;
+
     }
 
     // Delete -First
@@ -75,11 +90,11 @@ public class LL {
     // Print LL
 
     public static void printList() {
-        Node currNode = head;
+        Node temp = head;
 
-        while(currNode != null){
-            System.out.print(currNode.data+" -> ");
-            currNode = currNode.next;
+        while(temp != null){
+            System.out.print(temp.value+" -> ");
+            temp = temp.next;
         }
         System.out.println("NULL");
     }
@@ -96,7 +111,7 @@ public class LL {
 
         list1.deletefirst();
         list1.printList();
-
+        list1.add("KENEA", 2);
         list1.deleteLast();
         list1.printList();
     }
