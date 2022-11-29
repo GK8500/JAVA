@@ -1,5 +1,5 @@
 public class Doubly_LL {
-    static head;
+    static Node head;
 
     private class Node{
         int value;
@@ -7,15 +7,19 @@ public class Doubly_LL {
         Node next;
     }
 
-    public addFirst(int value){
-        Node node = new Node;
-        node.next = head;
-        node.prev = null;
-        head.prev = node;
-        head = node;
+    public void addFirst(int value){
+        Node node = new Node();
+        if(head == null){
+            node = head;
+            node.next = null;
+            node.prev = null;
 
-    }
-    public static void main(String[] args) {
-        
+         }
+        else{
+            node.next = head;
+            node.prev = null;
+            head.prev = node;
+            head = node;
+        }
     }
 }
