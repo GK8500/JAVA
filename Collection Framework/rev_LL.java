@@ -124,7 +124,7 @@ public class rev_LL {
         list1.addLast("Zambia");        
         list1.addLast("Congo");        
         list1.printList();
-        list1.reverseRecursive();
+//        list1.reverseRecursive();
         list1.printList();
         
     }

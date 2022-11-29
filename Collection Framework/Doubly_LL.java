@@ -13,7 +13,6 @@ public class Doubly_LL {
             node = head;
             node.next = null;
             node.prev = null;
-
          }
         else{
             node.next = head;
@@ -22,4 +21,16 @@ public class Doubly_LL {
             head = node;
         }
     }
+
+
+    public void display(){
+    Node temp = head;
+    while(temp != null){
+        System.out.println(temp + "-->");
+        temp = temp.next;
+    }
+}
+
+
+
 }

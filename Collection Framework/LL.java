@@ -1,133 +1,156 @@
-// package Collection Framework;
 
-public class LL {
 
-    static Node head;
-    int size;
+    public class LL {
 
-    public LL(){
-        this.size = 0;
-    }
-    class Node{
-        int value;
-        Node next;
+        static Node head;
+        int size;
 
-        Node(int value){
-            this.value = value;
-            this.next = null;
+        public LL(){
+            this.size = 0;
         }
-        Node(int value,Node next){
-            this.value = value;
-            this.next = next;
-        }
-        
-    }
-    
 
-    // add- First
-    public void addFirst(int value){
-        Node newNode = new Node(value);
-        if(head == null){
-            head = newNode;
-            return;
+        class Node{
+            int value;
+            Node next;
+
+            Node(int value){
+                this.value = value;
+                this.next = null;
+            }
+            Node(int value,Node next){
+                this.value = value;
+                this.next = next;
+            }
+
         }
+
+
+        // add- First
+        public void addFirst(int value){
+            Node newNode = new Node(value);
+            if(head == null){
+                head = newNode;
+                return;
+            }
 // We created a new node, then made that node poit to head and then made the new node head.
-        newNode.next = head;
-        head = newNode; // head gets the new value of newNode.
-        size ++;
-    }
-
-    // add- Last
-
-    public void addLast(int value){
-        Node newNode = new Node(value);
-        if(head == null){
-            head = newNode;
-            return;
+            newNode.next = head;
+            head = newNode; // head gets the new value of newNode.
+            size ++;
         }
-        Node currNode = head;
-        while(currNode.next != null){
-            currNode = currNode.next;
-        }
-        currNode.next = newNode;
-        size ++;
-    }
 
-    // add
-    public void add(int value, int index){
-        Node temp = head;
-        for (int i = 1; i < index; i++) {
-            temp = temp.next;
-        }
-        Node n1 = new Node(value, temp.next);
-        temp.next = n1;
-        size ++;
+        // add- Last
 
-    }
+        public void addLast(int value){
+            Node newNode = new Node(value);
+            if(head == null){
+                head = newNode;
+                return;
+            }
+            Node currNode = head;
+            while(currNode.next != null){
+                currNode = currNode.next;
+            }
+            currNode.next = newNode;
+            size ++;
+        }
 
-    // Delete -First
-    public void deletefirst(){
-        if(head == null){
-            System.out.println("The List is empty.");
+        // add
+        public void add(int value, int index){
+            Node temp = head;
+            for (int i = 1; i < index; i++) {
+                temp = temp.next;
+            }
+            Node n1 = new Node(value, temp.next);
+            temp.next = n1;
+            size ++;
+
         }
-        return head = head.next;
-        size --;
-    }
-    
-    // delete -last
-    
-    public int deleteLast(){
-        if(head == null){
-            System.out.println("The List is empty.");
+
+        // find function
+        public Node find(int value){
+            Node node = head;
+            while(node!=null){
+                if(node.value == value ){
+                    return node;
+                }
+                node.next = node;
+            }
+            return node;
         }
+
+        // get function
+        public Node get(int index){
+            Node node = head;
+            for (int i = 0; i < index; i++) {
+                node = node.next;
+            }
+            return node;
+        }
+
+        // Delete -First
+        public int deletefirst(){
+            if(head == null){
+                System.out.println("The List is empty.");
+            }
+            head = head.next;
+            return size --;
+        }
+
+        // delete -last
+
+        public int deleteLast(){
+            if(head == null){
+                System.out.println("The List is empty.");
+            }
 
 // element next to null is also null but the code will break so we need to address this issue.
 
-        if(head.next == null){
-            head = null;
-            return;
+            if(head.next == null){
+                head = null;
+
+            }
+
+            Node secondlast = head;
+            Node lastNode = head.next;
+            while(lastNode.next != null){
+                lastNode = lastNode.next;
+                secondlast = secondlast.next;
+            }
+            secondlast.next = null;
+            return size --;
         }
 
-        Node secondlast = head;
-        Node lastNode = head.next;
-        while(lastNode.next != null){
-            lastNode = lastNode.next;
-            secondlast = secondlast.next;
-        }
-        return secondlast.next = null;
-        size --;
-    }
+// delete
 
-    // delete
+        public int delete(int index){
 
-    public void delete(int index){
+            if(index == 0){
+                return deletefirst();
+            }
+            if(index == size-1 ){
+                return deleteLast();
+            }
 
-        if(index == 0){
-            return deletefirst();
-        }
-        if(index == size-1 ){
-            return deleteLast();
+            Node prev = get(index-1);
+            int val = prev.next.value;
+            prev.next = prev.next.next;
+
+            return val;
         }
 
-        Node prev = get(index-1);
-        int val = prev.next.value;
-        prev.next = prev.next.next;
+        // Print LL
 
-        return val;
-    }
+        public static void printList() {
+            Node temp = head;
 
-
-    // Print LL
-
-    public static void printList() {
-        Node temp = head;
-
-        while(temp != null){
-            System.out.print(temp.value+" -> ");
-            temp = temp.next;
+            while(temp != null){
+                System.out.print(temp.value+" -> ");
+                temp = temp.next;
+            }
+            System.out.println("NULL");
         }
-        System.out.println("NULL");
-    }
+
+
 
     public static void main(int[] args) {
         LL list1 = new LL();
