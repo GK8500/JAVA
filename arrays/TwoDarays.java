@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner ;
 
 
@@ -20,13 +22,22 @@ public class TwoDarays {
             }
         }
 
-        // output
-        for(int i=0; i<rows; i ++) {
-            for(int j=0; j<coloumns; j ++) {
-            System.out.print(numbers [i] [j] + " ");
-            }
-            System.out.println();
+        // output 1
+
+        // for(int i=0; i<rows; i ++) {
+        //     for(int j=0; j<coloumns; j ++) {
+        //     System.out.print(numbers [i] [j] + " ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // output 2
+
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(Arrays.toString(numbers[i]));
         }
+        System.out.println();
+        System.out.println(Arrays.toString(numbers[0]));
         sc.close();
     }
 }

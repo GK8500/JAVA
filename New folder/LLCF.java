@@ -1,3 +1,5 @@
+// linkedlist Collection framework
+
 import java.util.LinkedList;
 
 public class LLCF {

@@ -23,7 +23,7 @@ public class LL {
     }
     
 
-    // add- First
+// add- First
     public void addFirst(int value){
         Node newNode = new Node(value);
         if(head == null){
@@ -36,7 +36,7 @@ public class LL {
         size ++;
     }
 
-    // add- Last
+// add- Last
 
     public void addLast(int value){
         Node newNode = new Node(value);
@@ -52,7 +52,7 @@ public class LL {
         size ++;
     }
 
-    // add
+// add
     public void add(int value, int index){
         Node temp = head;
         for (int i = 1; i < index; i++) {
@@ -64,7 +64,7 @@ public class LL {
 
     }
     
-  // find function
+// find function
     public Node find(int value){
         Node node = head;
         while(node!=null){
