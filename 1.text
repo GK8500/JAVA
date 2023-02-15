@@ -33,7 +33,7 @@ There are two ways in which user input can be taken in java. BufferedReader clas
 In order to user BufferedReaderclass we need to import io package in our program.
 import java.io.*
 The function "readLine()" is used to read one line of input.
-Mostly uised in exceptional handling.
+Mostly used in exceptional handling.
 
 // Scanner class // 
 
